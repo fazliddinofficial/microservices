@@ -1,0 +1,21 @@
+# Ignore the node_modules directory, as dependencies will be installed in the container
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files containing sensitive information
+.env
+.env.local
+
+# Ignore build output directories
+build/
+dist/
+
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore any temporary or cache files
+tmp/
+.cache/
